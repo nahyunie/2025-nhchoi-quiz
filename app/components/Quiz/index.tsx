@@ -224,9 +224,11 @@ const QuizApp = () => {
                   ))}
                 </h1>
               </div>
+              <p className="font-bold text-gray-300 mb-2 drop-shadow-lg mt-8">문제를 푼 사람에 대한 정보는 저장하지 않아요.</p>
+              <p className="font-bold text-gray-300 drop-shadow-lg">(나도 알고 싶은데 그 정도 개발 능력이 없삼....)</p>
               <button
                 onClick={() => setCurrentSlide(1)}
-                className="mt-8 px-10 py-4 bg-white text-red-600 rounded-full text-lg font-bold hover:bg-red-50 transition-all shadow-xl border-4 border-red-200"
+                className="mt-6 px-10 py-4 bg-white text-red-600 rounded-full text-lg font-bold hover:bg-red-50 transition-all shadow-xl border-4 border-red-200"
               >
                 시작하기 🎁
               </button>
